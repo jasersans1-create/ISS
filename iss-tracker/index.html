@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Mission Control</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  
+  <div id="starfield"></div>
+
+
+  <!-- Navbar -->
+  <nav>
+
+    <div class="logo">
+      MISSION CONTROL
+    </div>
+
+    <ul>
+
+      <li><a href="#tracking">Tracking</a></li>
+
+      <li><a href="#crew">Crew</a></li>
+
+      <li><a href="#about">About</a></li>
+
+    </ul>
+
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+
+    <p class="eyebrow">
+      LIVE • INTERNATIONAL SPACE STATION
+    </p>
+
+    <h1>
+
+      Mission<br>
+      Control
+
+    </h1>
+
+    <p class="subtitle">
+
+      Real-time tracking of humanity's heroes in orbit.
+
+    </p>
+
+    <a href="#tracking" class="cta">
+
+      Begin Tracking →
+
+    </a>
+    
+
+  </section>
+
+  <section class="briefing" id="about">
+  
+    <div class="briefing-left">
+  
+      <p class="section-tag">
+        MISSION BRIEFING
+      </p>
+  
+      <h2>
+        Humanity's permanent home in space.
+      </h2>
+  
+      <p class="briefing-text">
+        Since 1998, the International Space Station has continuously orbited Earth,
+        serving as a laboratory, observatory, and home for astronauts from around
+        the world. Mission Control provides a live view into its journey.
+      </p>
+  
+    </div>
+  
+    <div class="briefing-right">
+  
+      <div class="metric">
+        <span>Altitude</span>
+        <h3>~420 km</h3>
+      </div>
+  
+      <div class="metric">
+        <span>Orbital Speed</span>
+        <h3>27,600 km/h</h3>
+      </div>
+  
+      <div class="metric">
+        <span>Orbit Time</span>
+        <h3>~90 min</h3>
+      </div>
+  
+      <div class="metric">
+        <span>Sunrises / Day</span>
+        <h3>16</h3>
+      </div>
+  
+    </div>
+  
+  </section>
+
+  <section id="tracking" class="tracking">
+
+    <div class="tracking-header">
+
+      <h2>
+
+        Live Orbit
+
+      </h2>
+
+      <p>
+
+        Current location of the International Space Station.
+
+      </p>
+
+    </div>
+
+    <div id="map"></div>
+
+  </section>
+
+  <!-- Stats -->
+
+  <section class="stats">
+
+    <div class="stat">
+
+      <span>Latitude</span>
+
+      <h3 id="latitude">--</h3>
+
+    </div>
+
+    <div class="stat">
+
+      <span>Longitude</span>
+
+      <h3 id="longitude">--</h3>
+
+    </div>
+
+    <div class="stat">
+
+      <span>Speed</span>
+
+      <h3 id="speed">--</h3>
+
+    </div>
+
+    <div class="stat">
+
+      <span>Altitude</span>
+
+      <h3 id="altitude">--</h3>
+
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+
+  <footer>
+
+    <p>
+
+      Mission Control © 2026
+
+    </p>
+
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+
+</body>
+
+</html>
