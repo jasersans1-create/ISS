@@ -5,7 +5,7 @@ import wilmore from "./assets/wilmore.jpeg";
 export const crew = [
     {
         name: "Suni Williams",
-        country: "🇺🇸 USA",
+        country: " USA",
         mission: "Expedition 72",
         image: suni,
         days: "ISS Mission Active"
@@ -13,7 +13,7 @@ export const crew = [
 
     {
         name: "Butch Wilmore",
-        country: "🇺🇸 USA",
+        country: "USA",
         mission: "Expedition 72",
         image: wilmore,
         days: "ISS Mission Active"
