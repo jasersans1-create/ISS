@@ -24,9 +24,11 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
+        working-directory: ./iss-tracker
         run: npm install
 
       - name: Build
+        working-directory: ./iss-tracker
         run: npm run build
 
       - name: Upload artifact
