@@ -444,4 +444,157 @@ footer {
     transform: scale(.8);
   }
 
+
+
+}
+/* =====================
+   ISS CREW MODULE
+===================== */
+
+.crew-section {
+
+  margin-top: 60px;
+  padding: 30px;
+
+}
+
+
+.crew-section h2 {
+
+  font-size: 42px;
+  font-weight: 700;
+
+  letter-spacing: 3px;
+
+  margin-bottom: 35px;
+
+  text-transform: uppercase;
+
+}
+
+
+#crew {
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(auto-fit, minmax(320px, 1fr));
+
+  gap: 30px;
+
+}
+
+
+
+/* Crew Card */
+
+.crew-card {
+
+  background:
+    linear-gradient(145deg,
+      rgba(255, 255, 255, 0.12),
+      rgba(255, 255, 255, 0.04));
+
+
+  border:
+
+    1px solid rgba(255, 255, 255, 0.18);
+
+
+  border-radius: 25px;
+
+
+  padding: 30px;
+
+
+  min-height: 380px;
+
+
+  backdrop-filter: blur(20px);
+
+
+  transition: 0.3s;
+
+
+}
+
+
+.crew-card:hover {
+
+  transform: translateY(-8px);
+
+}
+
+
+
+/* Astronaut */
+
+.astronaut-img {
+
+
+  width: 170px;
+
+  height: 170px;
+
+
+  object-fit: cover;
+
+
+  border-radius: 50%;
+
+
+  display: block;
+
+  margin: 0 auto 25px;
+
+
+  border:
+    3px solid rgba(255, 255, 255, 0.4);
+
+
+}
+
+
+
+/* Name */
+
+.crew-card h3 {
+
+
+  text-align: center;
+
+
+  font-size: 28px;
+
+
+  margin-bottom: 15px;
+
+
+}
+
+
+
+/* Info */
+
+.crew-card p {
+
+
+  text-align: center;
+
+
+  font-size: 18px;
+
+
+  opacity: 0.85;
+
+
+  margin: 10px;
+
+
+  .crew-section,
+    .crew-card {
+  
+      font-family: inherit;
+  
+    }
 }

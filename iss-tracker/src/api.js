@@ -23,4 +23,16 @@ export async function getISSPosition() {
         console.error(error);
         return null;
     }
+    
+}
+export async function getISScrew() {
+    const response = await fetch(
+        "https://ll.thespacedevs.com/2.2.0/astronaut/?in_space=true"
+    );
+
+    const data = await response.json();
+
+    return data.results.filter(
+        person => person.spacecraft?.name?.includes("ISS")
+    );
 }

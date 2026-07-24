@@ -1,6 +1,12 @@
 import "./style.css";
 import "leaflet/dist/leaflet.css";
 import { updateISS } from "./tracker";
+import { getISScrew } from "./api.js";
+import {crew} from "./crew.js";
+import {displayCrew} from "./ui.js";
+
+
+displayCrew(crew);
 
 import { initMap } from "./map";
 
